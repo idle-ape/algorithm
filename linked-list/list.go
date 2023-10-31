@@ -27,6 +27,24 @@ var (
 			},
 		},
 	}
+	List3 = &List{
+		Val: 1,
+		Next: &List{
+			Val: 4,
+			Next: &List{
+				Val: 3,
+				Next: &List{
+					Val: 2,
+					Next: &List{
+						Val: 5,
+						Next: &List{
+							Val: 2,
+						},
+					},
+				},
+			},
+		},
+	}
 )
 
 type List struct {
