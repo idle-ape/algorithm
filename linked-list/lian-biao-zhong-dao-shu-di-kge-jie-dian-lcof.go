@@ -18,7 +18,7 @@ func init() {
 	exec.Register(0, FindFromEndExec)
 }
 
-func findFromEnd(head *List, k int) int {
+func findFromEnd(head *List, k int) *List {
 	p1, p2 := head, head
 	for i := 0; i < k; i++ {
 		p1 = p1.Next
@@ -28,12 +28,12 @@ func findFromEnd(head *List, k int) int {
 		p2 = p2.Next
 	}
 
-	return p2.Val
+	return p2
 }
 
 func FindFromEndExec() {
 	fmt.Printf("list: %s\n", List3)
 	k := 3
 	l := findFromEnd(List3, k)
-	fmt.Printf("reverse %d node: %d\n", k, l)
+	fmt.Printf("reverse %d node: %d\n", k, l.Val)
 }
