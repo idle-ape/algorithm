@@ -45,6 +45,24 @@ var (
 			},
 		},
 	}
+	node1 = &List{
+		Val: 2,
+	}
+	node2 = &List{
+		Val: 5,
+	}
+	node3 = &List{
+		Val: 2,
+	}
+	node4 = &List{
+		Val: 4,
+	}
+	node5 = &List{
+		Val: 3,
+	}
+	CycleList = &List{
+		Val: 1,
+	}
 )
 
 type List struct {
