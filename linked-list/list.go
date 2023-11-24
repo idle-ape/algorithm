@@ -10,7 +10,8 @@ var (
 			Next: &List{
 				Val: 4,
 				Next: &List{
-					Val: 6,
+					Val:  6,
+					Next: node4,
 				},
 			},
 		},
@@ -46,7 +47,7 @@ var (
 		},
 	}
 	node1 = &List{
-		Val: 2,
+		Val: 7,
 	}
 	node2 = &List{
 		Val: 5,
