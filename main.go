@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	_ "github.com/idle-ape/algorithm/array"
 	"github.com/idle-ape/algorithm/exec"
 	_ "github.com/idle-ape/algorithm/linked-list"
 )
