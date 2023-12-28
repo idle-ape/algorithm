@@ -5,6 +5,7 @@ import (
 	"os"
 
 	_ "github.com/idle-ape/algorithm/array"
+	_ "github.com/idle-ape/algorithm/binary-tree"
 	"github.com/idle-ape/algorithm/exec"
 	_ "github.com/idle-ape/algorithm/linked-list"
 	_ "github.com/idle-ape/algorithm/string"
