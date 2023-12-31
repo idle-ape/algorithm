@@ -19,6 +19,13 @@ var maxDepth = &BinaryTree{
 	},
 }
 
+var diameter1 = &BinaryTree{
+	Val: 3,
+	Left: &BinaryTree{
+		Val: 2,
+	},
+}
+
 // BinaryTree define of binary tree
 type BinaryTree struct {
 	Val   int
