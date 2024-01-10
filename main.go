@@ -6,6 +6,7 @@ import (
 
 	_ "github.com/idle-ape/algorithm/array"
 	_ "github.com/idle-ape/algorithm/binary-tree"
+	_ "github.com/idle-ape/algorithm/dynamic_programming"
 	"github.com/idle-ape/algorithm/exec"
 	_ "github.com/idle-ape/algorithm/linked-list"
 	_ "github.com/idle-ape/algorithm/string"
